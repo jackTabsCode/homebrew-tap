@@ -1,20 +1,20 @@
 class Asphalt < Formula
   desc "Upload and reference Roblox assets in code"
   homepage "https://github.com/jacktabscode/asphalt"
-  version "1.0.0"
+  version "1.1.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/jacktabscode/asphalt/releases/download/v1.0.0/asphalt-aarch64-apple-darwin.tar.xz"
-      sha256 "2bce97682bcbba7dccd11d8de80b07562da4c14af50b54bdf5c6db3027787ce2"
+      url "https://github.com/jacktabscode/asphalt/releases/download/v1.1.0/asphalt-aarch64-apple-darwin.tar.xz"
+      sha256 "3567a7b5a7ac797ea878ec2a1ed46d0e3dde58194198f18723e395979564505a"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/jacktabscode/asphalt/releases/download/v1.0.0/asphalt-x86_64-apple-darwin.tar.xz"
-      sha256 "808df1bee34e143ee71ff9cc7cbf2e7c258ada179bf9c147d3f776c7da5af5ff"
+      url "https://github.com/jacktabscode/asphalt/releases/download/v1.1.0/asphalt-x86_64-apple-darwin.tar.xz"
+      sha256 "167e730093ace2cc6ae07fe93a9ea0377484918a14ad77ac863983493bbc4fe8"
     end
   end
   if OS.linux? && Hardware::CPU.intel?
-    url "https://github.com/jacktabscode/asphalt/releases/download/v1.0.0/asphalt-x86_64-unknown-linux-gnu.tar.xz"
-    sha256 "8af3485e6518c65fd8a47529ddfc640a9c9e142542a711da14da4107af08a04e"
+    url "https://github.com/jacktabscode/asphalt/releases/download/v1.1.0/asphalt-x86_64-unknown-linux-gnu.tar.xz"
+    sha256 "2a844d719cd8a7f1fae9e07edc180d59a0304b574a3e6589a56394c98b357344"
   end
   license "MIT"
 
